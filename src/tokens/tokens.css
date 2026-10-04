@@ -1,0 +1,39 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-deep-sapphire: #173a6b;
+  --color-dark-red: #8e0d22;
+  --color-pale-blue: #eaf1ff;
+  --radius-md: 8px;
+  --spacing-14: 14px;
+  --spacing-15: 15px;
+  --spacing-34: 34px;
+  --sizing-size-56: 56px;
+  --sizing-size-28: 28px;
+  --typography-font-family-inter: Inter;
+  --typography-font-weight-600: 600;
+  --typography-font-size-18: 18px;
+  --typography-line-height-120-percent: 1.2;
+  --typography-letter-spacing-4-percent: 0.72px;
+  --motion-duration-160ms: 160ms;
+  --motion-easing-ease-out: cubic-bezier(0, 0, 0.58, 1);
+  --elevation-md: 0px 7px 14px 0px rgb(0% 0% 0% / 0.35); /** Button elevation */
+  --button-primary-default: #173a6b;
+  --button-primary-hover: #8e0d22;
+  --button-primary-text: #eaf1ff;
+  --button-radius: 8px;
+  --button-spacing-icon-padding-y: 14px;
+  --button-spacing-icon-padding-x: 15px;
+  --button-spacing-label-padding-left: 14px;
+  --button-spacing-label-padding-right: 34px;
+  --button-typography-font-family: Inter;
+  --button-typography-font-weight: 600;
+  --button-typography-font-size: 18px;
+  --button-typography-line-height: 1.2;
+  --button-typography-letter-spacing: 0.72px;
+  --button-size-md-height: 56px;
+  --button-size-md-icon: 28px;
+  --button-icon-color: #eaf1ff;
+}

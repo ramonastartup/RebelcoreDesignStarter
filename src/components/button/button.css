@@ -1,0 +1,48 @@
+@import "../../tokens/tokens.css";
+
+.rc-button {
+  display: inline-flex;
+  align-items: stretch;
+  height: var(--button-size-md-height);
+  padding: 0;
+  border: 0;
+  border-radius: var(--button-radius);
+  overflow: hidden;
+
+  background: var(--button-primary-default);
+  color: var(--button-primary-text);
+  box-shadow: var(--elevation-md);
+
+  font-family: var(--button-typography-font-family);
+  font-size: var(--button-typography-font-size);
+  font-weight: var(--button-typography-font-weight);
+  line-height: var(--button-typography-line-height);
+  letter-spacing: var(--button-typography-letter-spacing);
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition:
+    background-color var(--motion-duration-160ms) var(--motion-easing-ease-out);
+}
+
+.rc-button:hover {
+  background: var(--button-primary-hover);
+}
+
+.rc-button__icon {
+  width: var(--button-size-md-icon);
+  height: var(--button-size-md-icon);
+  margin:
+    var(--button-spacing-icon-padding-y)
+    var(--button-spacing-icon-padding-x);
+  flex: 0 0 auto;
+  color: var(--button-icon-color);
+}
+
+.rc-button__label {
+  display: flex;
+  align-items: center;
+  padding-left: var(--button-spacing-label-padding-left);
+  padding-right: var(--button-spacing-label-padding-right);
+}
