@@ -2,10 +2,16 @@
   "name": "rebelcoredesignstarter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-"scripts": {
-  "build:tokens": "node scripts/build-tokens.js"
-},
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build:tokens": "node scripts/build-tokens.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
